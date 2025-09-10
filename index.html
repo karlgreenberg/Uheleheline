@@ -1,14 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <meta charset="utf-8" />
   <head>
     <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Veebileht</title>
   </head>
   <body>
-    <h1>Pealkiri1</h1>
-    <img src="images/skypic.jpg" />
-    <p class="title">Karl Greenberg</p>
-    <p>Õpilane</p>
+    <header>
+      <nav aria-label="Põhinavigatsioon">
+        <a href="#sissejuhatus">Sissejuhatus</a>
+        <a href="#teooria">Teooria</a>
+        <a href="#kontakt">Kontakt</a>
+        <a class="#skip-link" href="#content">Sisu</a>
+      </nav>
+    </header>
+    <section id="content" class="skip-link"></section>
+    <br />
+    <main>
+      <section id="sissejuhatus">
+        <h1>Sissejuhatus</h1>
+        <p>Mis on HTML?</p>
+        <p class="esitaht">
+          HTML on lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Autem illo iure laudantium ipsa numquam laboriosam velit porro. Est
+          perspiciatis, quae nemo eveniet quis cupiditate ex ipsa perferendis
+          eligendi odit iure. Iusto, optio culpa. Minima pariatur at repellendus
+          repudiandae, doloribus sed culpa, incidunt molestiae dolorum saepe a
+          provident minus! Numquam, labore!
+        </p>
+      </section>
+    </main>
+    <footer>
+      <section id="teooria">
+        <h2>Teooria</h2>
+        <p class="esitaht">
+          Teooria lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+          dolores accusantium odio quis sequi quos sit. Fugiat totam ratione cum
+          accusamus, mollitia debitis libero magnam sint nihil repellendus rem
+          eos facilis tempora officia laudantium, nostrum quo. Similique quos,
+          libero officia est ratione accusantium nam exercitationem temporibus
+          architecto autem numquam quod!
+        </p>
+      </section>
+      <section id="kontakt">
+        <img class="skypic" src="images/skypic.jpg" alt="Taevast pilt" />
+        <p class="title">Karl Greenberg</p>
+        <p>&#213;pilane</p>
+      </section>
+      <section id="lisalingid">
+        <h3>Kasulikud leheküljed</h3>
+        <a
+          target="_blank"
+          class="lisalingid"
+          href="https://www.w3schools.com/html/default.asp"
+          >W3schools</a
+        >
+        <br />
+        <a
+          target="_blank"
+          class="lisalingid"
+          href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+          >Flexbox</a
+        >
+      </section>
+      <br />
+      <a class="return" href="#content">Tagasi üles</a>
+    </footer>
   </body>
 </html>
