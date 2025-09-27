@@ -1,0 +1,81 @@
+p {
+  width: 160px;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1517495306984-f84210f9daa8?q=80&w=3858&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-color: lightcyan;
+  height: 24.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  max-width: 100%;
+}
+
+title {
+  width: 75px;
+}
+
+.skypic {
+  border-radius: 20px;
+}
+a {
+  color: lightcyan;
+}
+
+a:hover {
+  color: blue;
+}
+a:active {
+  opacity: 30%;
+}
+a:visited {
+  color: purple;
+  font-style: italic;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p.esitaht::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  display: flex;
+  align-items: center;
+}
+
+a.return:hover {
+  color: lightblue;
+}
+a.return:active {
+  opacity: 30%;
+}
+a.return {
+  color: blue;
+}
+a.return:visited {
+  color: purple;
+}
+.lisalingid{
+    color:blue;
+    
+}
+a.lisalingid:hover{
+    color:lightblue
+}
+a.lisalingid:active{
+    opacity:30%;
+}
